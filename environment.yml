@@ -1,0 +1,14 @@
+name: batcollect
+channels:
+  - defaults
+dependencies:
+  - python==3.10.*
+
+  # Basics
+  - requests
+
+  # Etc
+  - pip
+  - pip:
+    - jupyterlab
+    - git+https://github.com/ROVI-org/battery-data-toolkit.git
