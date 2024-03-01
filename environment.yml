@@ -10,5 +10,7 @@ dependencies:
   # Etc
   - pip
   - pip:
+    - tqdm
+    - selenium
     - jupyterlab
     - git+https://github.com/ROVI-org/battery-data-toolkit.git
