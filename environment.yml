@@ -13,4 +13,4 @@ dependencies:
     - tqdm
     - selenium
     - jupyterlab
-    - git+https://github.com/ROVI-org/battery-data-toolkit.git
+    - battery-data-toolkit>=0.3
