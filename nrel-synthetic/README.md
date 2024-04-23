@@ -4,8 +4,8 @@ This data are from simulations of _Batteries_ from Paul Gasper at NREL which var
 
 There are two datasets within the collection: one where the stressors are the same each day, and a second where they are varied.
 
-- dt: Elapsed time per cycle
-- t: Total elapsed time at start of cycle
+- dt: Elapsed time per cycle (units: days)
+- t: Total elapsed time at start of cycle (unit: days)
 - dEFC: Number of Equivalent Full Cycles per cycle
 - EFC: Total number of Equivalent Full Cycles at start of cycle
 - soc: Maximum state of charge during charging
