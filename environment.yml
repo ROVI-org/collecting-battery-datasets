@@ -14,4 +14,4 @@ dependencies:
     - tqdm
     - selenium
     - jupyterlab
-    - battery-data-toolkit>=0.3
+    - battery-data-toolkit>=0.3.1
