@@ -6,6 +6,7 @@ dependencies:
 
   # Basics
   - requests
+  - matplotlib
 
   # Etc
   - pip
