@@ -1,0 +1,48 @@
+- name: Reaction transfer
+  description: 
+  symbol: \alpha_n
+  units: 
+- name: Electrode specific area
+  description: 
+  symbol: a
+  units: 1/m
+- name: Membrane conductivity
+  description: 
+  symbol: \sigma_m
+  units: S/m
+- name: Reaction rate constant
+  description: 
+  symbol: k_n
+  units: m/s
+- name: Mass transfer coefficient
+  description:
+  symbol: k_m
+  units: m/s
+- name: Concentration
+  description:
+  symbol: C
+  units: mol/m^3
+- name: Diffusivitiy
+  description: 
+  symbol: D_n
+  units: m^2/s
+- name: Viscosity
+  description: 
+  symbol: \mu_n
+  units: Pa-s
+- name: Standard potential
+  description: 
+  symbol: E_n
+  units: V
+- name: Electrolyte ionic conductivity
+  description: 
+  symbol: k_{eff}
+  units: S/m
+- name: Applied current
+  description:
+  symbol: i_{app}
+  units: A/m^2
+- name: Pump rate
+  description:
+  symbol: Q
+  units: L/min
