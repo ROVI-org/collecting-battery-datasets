@@ -1,48 +1,48 @@
-- name: Reaction transfer
-  description: 
+- name: Reaction transfer coefficient
+  description: A measure of the symmetry of the two directions of the reaction.
   symbol: \alpha_n
-  units: 
+  units: unitless
 - name: Electrode specific area
-  description: 
+  description: The ratio between the total electrode microstructure surface area and the total volume of the electrode.
   symbol: a
   units: 1/m
 - name: Membrane conductivity
-  description: 
+  description: The ion conductivity of membrane between positive and negative sides.
   symbol: \sigma_m
   units: S/m
 - name: Reaction rate constant
-  description: 
+  description: The reaction rate constant for calculation of exchange current density.
   symbol: k_n
   units: m/s
 - name: Mass transfer coefficient
-  description:
+  description: The overall transport speed of active species from center of pore to the wall of pore.
   symbol: k_m
   units: m/s
 - name: Concentration
-  description:
+  description: The initial concentration of active species in negative side tank.
   symbol: C
   units: mol/m^3
-- name: Diffusivitiy
-  description: 
+- name: Diffusivity
+  description: The diffusivity of active species in negative side electrode.
   symbol: D_n
   units: m^2/s
 - name: Viscosity
-  description: 
+  description: The viscosity of the electrolyte
   symbol: \mu_n
   units: Pa-s
 - name: Standard potential
-  description: 
+  description: The standard potential of negative side reaction.
   symbol: E_n
   units: V
 - name: Electrolyte ionic conductivity
-  description: 
+  description: The ionic conductivity in negative side electrolyte. 
   symbol: k_{eff}
   units: S/m
 - name: Applied current
-  description:
+  description: The current density applied on the cell.
   symbol: i_{app}
   units: A/m^2
 - name: Pump rate
-  description:
+  description: The electrolyte flow rate through electrode.
   symbol: Q
   units: L/min
