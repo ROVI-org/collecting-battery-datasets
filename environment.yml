@@ -4,10 +4,6 @@ channels:
 dependencies:
   - python==3.10.*
 
-  # Basics
-  - requests
-  - matplotlib
-
   # Etc
   - pip
   - pip:
@@ -15,4 +11,5 @@ dependencies:
     - tqdm
     - selenium
     - jupyterlab
+    - matplotlib
     - battery-data-toolkit>=0.3.1
